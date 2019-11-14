@@ -27,18 +27,29 @@
     <header>
       <nav>
         <div><ul id="menu">
-          <li><form action="beta_test.html" method="post" onsubmit="return do_check();">
-          <button type="submit"><img src="images/password.jpg" border="0" /></button>
-          </form></li>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="index2.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="albums.html">Albums</a></li>
           <li><a href="news.html">News</a></li>
+          <li>
+
+              Enter password: <input id='password' type='text'  />
+              <a href="" onclick="javascript:return validatePass()">enter your password and click this</a>
+              <script>
+              function validatePass(){
+                  if(document.getElementById('password').value == 'letsgo'){
+                      return true;
+                    }else{
+                        alert('wrong password!!');
+                        return false;
+                    }
+              }
+          </script></li>
 
 
-          <!--<li><a href="index2.html">3</a></li>-->
 
-        </ul></div>
+
+ </ul></div>
       </nav>
       <h1><a href="index.html" id="logo">nightclub feel the rhythm</a></h1>
     </header>

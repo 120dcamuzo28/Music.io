@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Chance The Rapper</title>
+<title>Chance The Rapper | Residents</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -11,34 +11,27 @@
 <script src="js/cufon-replace.js"></script>
 <script src="js/NewsGoth_BT_400.font.js"></script>
 <script src="js/NewsGoth_BT_700.font.js"></script>
-<script src="js/jcarousellite.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.mousewheel.js"></script>
 <script src="js/atooltip.jquery.js"></script>
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
 <![endif]-->
 </head>
-<body id="page1">
+<body id="page4">
 <div class="bg1">
   <div class="main">
     <!--header -->
     <header>
       <nav>
-        <div><ul id="menu">
+        <ul id="menu">
           <li><form action="beta_test.html" method="post" onsubmit="return do_check();">
           <button type="submit"><img src="images/password.jpg" border="0" /></button>
           </form></li>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="albums.html">Albums</a></li>
+          <li class="active"><a href="albums.html">Albums</a></li>
           <li><a href="news.html">News</a></li>
-
-
-          <!--<li><a href="index2.html">3</a></li>-->
-
-        </ul></div>
+        </ul>
       </nav>
       <h1><a href="index.html" id="logo">nightclub feel the rhythm</a></h1>
     </header>
@@ -46,43 +39,25 @@
     <div class="box">
       <!--content -->
       <article id="content">
-        <div class="wrapper pad_bot1">
-          <section class="col1">
-            <h2 id="welcom">Hello!</h2>
-            <p class="color1">This is a fan page for Chance The Rapper. We update this website weekly to keep our fellow fans posted on our favorite artist. This is free of charge made by the fans, for the fans. Don't know who chance is? Lets take a look:</p>
-            <p class="pad_bot1">Chancelor Jonathan Bennett, known professionally as Chance the Rapper, is an American rapper, singer, songwriter, record producer, actor, and philanthropist from the West Chatham neighborhood of Chicago, Illinois. In 2013, he began to gain recognition following the release of his second mixtape, Acid Rap.</p>
-            <a href="#" class="link1"></a> </section>
-          <section class="col1 pad_left1">
-            <h2>Latest Event (2018):</h2>
-            <div id="gallery1">
-              <ul>
-                <li> <span class="dropcap_1">28<span>June</span></span>
-                  <p><span class="color1">Chance the Rapper
-Lollapalooza Sweden 2019
-
-Gärdet, Stockholm, Sweden</span><br>
-                    <br>
-                    <a href="#" class="link1">Day 1</a></p>
-                </li>
-                <li> <span class="dropcap_1">29<span>June</span></span>
-                  <p><span class="color1">Chance the Rapper
-Lollapalooza Sweden 2019
-
-Gärdet, Stockholm, Sweden</span><br>
-                  <br>
-                    <a href="#" class="link1">Day 2</a></p>
-                </li>
-                <li> <span class="dropcap_1">30<span>June</span></span>
-                  <p><span class="color1">Chance the Rapper
-Lollapalooza Sweden 2019
-
-Gärdet, Stockholm, Sweden</span><br>
-                  <br>
-                    <a href="#" class="link1">Day 3</a></p>
-                </li>
-              </ul>
+        <div class="wrapper">
+          <h2>Chance's albums:</h2>
+          <div class="wrapper">
+            <div class="cols marg_right1">
+              <figure class="pad_bot1"><img src="images/album1_img.jpg" alt=""></figure>
+              <p class="pad_bot2"><span class="color2">Acid Rap</span> <span class="color1"></span><br>
+                Acid Rap was met with universal acclaim from music critics. At Metacritic, the mixtape received an average score of 86, based on 21 critics, which indicates "universal acclaim"</p>
             </div>
-            <a href="#" class="next"></a> <a href="#" class="prev"></a> </section>
+            <div class="cols marg_right1">
+              <figure class="pad_bot1"><img src="images/album2_img.jpg" alt=""></figure>
+              <p class="pad_bot2"><span class="color2">10 Day</span> <span class="color1"></span><br>
+                Following a 10-day suspension in 2011 for possessing marijuana on his high school campus, Bennett recorded his first full-length project, called 10 Day.</p>
+              </div>
+            <div class="cols">
+              <figure class="pad_bot1"><img src="images/album3_img.jpg" alt=""></figure>
+              <p class="pad_bot2"><span class="color2">Coloring Book</span> <span class="color1"></span><br>
+                It was the first album to chart on the US Billboard 200 solely on streams, peaking at number eight, while receiving widespread acclaim from critics who praised its fusion of hip hop and gospel sounds.</p>
+              </div>
+          </div>
         </div>
       </article>
       <!--content end-->
@@ -128,21 +103,6 @@ Gärdet, Stockholm, Sweden</span><br>
     </div>
   </div>
 </div>
-<script>
-$(document).ready(function () {
-    //gallery
-    $("#gallery1").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev",
-        mouseWheel: true,
-        vertical: true,
-        circular: true,
-        visible: 2,
-        speed: 600,
-        easing: 'easeOutCirc'
-    });
-    Cufon.now();
-})
-</script>
+<script>Cufon.now();</script>
 </body>
 </html>

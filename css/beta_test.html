@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chance The Rapper | Gallery</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script src="js/jquery-1.6.js" ></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/NewsGoth_BT_400.font.js"></script>
+<script src="js/NewsGoth_BT_700.font.js"></script>
+<script src="js/atooltip.jquery.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
+<![endif]-->
+</head>
+<body id="page3">
+<div class="bg1">
+  <div class="main">
+    <!--header -->
+    <header>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="gallery.html">Gallery</a></li>
+          <li><a href="albums.html">Albums</a></li>
+          <li><a href="news.html">News</a></li>
+          <li class="active"><a href="beta_test.html">Tester</a></li>
+        </ul>
+      </nav>
+      <h1><a href="index.html" id="logo">nightclub feel the rhythm</a></h1>
+    </header>
+    <!--header end-->
+    <div class="box">
+      <!--content -->bfDVKlbklJWRVKJlsvkjb<br>sdkjvafvkadfhbakjl
+      <article id="content">
+        <div class="wrapper">
+          <h2>Chance's Merch:</h2>
+          <dl class="folio">
+            <dt> <img src="images/billboard.jpg
+              <ul class="marg_right1">
+                <li><a href="#img4"><img src="images/up.jpg" alt="" width="260" height="171"></a></li>
+                <li><a href="#img5"><img src="images/center.jpg" alt="" width="260" height="171"></a></li>
+                <li><a href="#img6"><img src="images/down.jpg" alt="" width="260" height="171"></a></li>
+              </ul>
+              <ul>SOLD OUT
+              CHANCE 3 NEW ERA CAP
+              45.00
+              Chance 3 New Era Cap (Sky Blue) Chance3NewEra(side).png
+              SOLD OUT
+              CHANCE 3 NEW ERA CAP (SKY BLUE)
+              45.00
+              <br>
+              Chance 3 New Era Cap (Green & Silver) green-silver-side.png
+              SOLD OUT
+              CHANCE 3 NEW ERA CAP (GREEN & SILVER)
+              45.00
+              Chance 3 New Era Cap (Green & Red) tilted_green_red.png
+              SOLD OUT
+              CHANCE 3 NEW ERA CAP (GREEN & RED)
+              45.00
+                <li><a href="#img7"><img src="images/corner4.png" alt="" width="260" height="171"></a></li>
+                <li><a href="#img8"><img src="images/right.jpg" alt="" width="260" height="171"></a></li>
+                <li><a href="#img9"><img src="images/corner3.png" alt="" width="260" height="171"></a></li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+      </article>
+      chance3-newera-3.png
+SOLD OUT
+CHANCE 3 NEW ERA CAP
+45.00
+Chance 3 New Era Cap (Sky Blue) Chance3NewEra(side).png
+SOLD OUT
+CHANCE 3 NEW ERA CAP (SKY BLUE)
+45.00
+<br>
+Chance 3 New Era Cap (Green & Silver) green-silver-side.png
+SOLD OUT
+CHANCE 3 NEW ERA CAP (GREEN & SILVER)
+45.00
+Chance 3 New Era Cap (Green & Red) tilted_green_red.png
+SOLD OUT
+CHANCE 3 NEW ERA CAP (GREEN & RED)
+45.00
+<!--content end-->
+      <!--footer -->
+      <footer>
+        <div class="line1">
+          <div class="line2 wrapper">
+            <div class="icons">
+
+            <div class="info">
+              <h4>About Us</h4>
+              <ul>
+                <li><a href="#">Life</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Albums</a></li>
+                <lihone<span>1-732-555-7892</span></p>
+            </div>
+          </div>
+</div>
+<script>Cufon.now();</script>
+<script>
+$(document).ready(function () {
+    var Img = '#' + $(".folio .active").attr('id')
+    $(".folio dt img").css({
+        opacity: '0'
+    });
+    $(".folio dt img.active").css({
+        opacity: '1'
+    });
+    $(".folio ul li a").click(function () {
+        var ImgId = $(this).attr("href");
+        if (ImgId != Img) {
+            $(".folio dt .active").animate({
+                opacity: "0"
+            }, 600, function () {
+                $(this).removeClass('active');
+            })
+            $(ImgId).animate({
+                opacity: "1"
+            }, 600).addClass('active');
+        }
+        Img = ImgId;
+        return false;
+    })
+});
+</script>
+</body>
+</html>
